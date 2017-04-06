@@ -22,6 +22,13 @@
                 <div class="descr col-sm-4">How would you call your service</div>
             </div>
             <div class="form-group">
+                <label for="service-name" class="col-sm-2 control-label">Tags</label>
+                <div class="col-sm-6">
+                    <input ng-required="false" ng-model="service.tags" type="text" class="form-control" id="service-tags" placeholder="Enter service tags (i.e: tag1=Hello,tag2=World)">
+                </div>
+                <div class="descr col-sm-4">How would you tag your service</div>
+            </div>
+            <div class="form-group">
                 <label for="url" class="col-sm-2 control-label">URL</label>
                 <div class="col-sm-6">
                     <input ng-required="true" ng-model="service.url" type="text" class="form-control" id="url" placeholder="Enter URL">
